@@ -1,12 +1,31 @@
-# React + Vite
+# Flux-based To-Do List (React + useReducer)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+A simple To-Do List application built using React and the `useReducer` hook, implementing a Flux-style architecture. No external Redux library is used for state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Add Todo**: Add new tasks to the list.
+- **Toggle Todo**: Mark tasks as completed or pending.
+- **Delete Todo**: Remove tasks from the list.
+- **Filter Todos**: Filter tasks by All, Completed, or Pending.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies
+
+- React
+- `useReducer` for state management
+- Tailwind CSS (for styling, optional)
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have `Node.js` and `npm` installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+   ```
